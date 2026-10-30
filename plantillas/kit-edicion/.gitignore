@@ -1,0 +1,10 @@
+node_modules
+out
+models/
+.venv/
+.env
+.DS_Store
+public/clips/*
+!public/clips/.gitkeep
+public/data/*.json
+!public/data/.gitkeep

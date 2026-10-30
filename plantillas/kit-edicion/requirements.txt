@@ -1,0 +1,3 @@
+pywhispercpp
+faster-whisper
+numpy

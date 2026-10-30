@@ -1,0 +1,26 @@
+{
+  "name": "kit-edicion",
+  "version": "1.0.0",
+  "description": "Reels con cortes de silencio, subtitulos y color, hechos con Remotion",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/cli": "4.0.534",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.534",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.39.5",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Reel out/reel.mp4",
+    "lint": "eslint src && tsc"
+  }
+}

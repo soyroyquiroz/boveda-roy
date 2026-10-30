@@ -8,7 +8,8 @@ Herramientas de IA que uso en mi día a día, en versión limpia. Escoge solo la
 | --- | --- | --- | --- |
 | Volverme experto | Le dices un tema y Claude te arma una ruta para dominarlo, con ejercicios y quizzes | Claude | [volverme-experto.zip](descargas/volverme-experto.zip) |
 | Horario semanal | Le mandas foto de tu horario impreso y Claude pasa tus turnos a Google Calendar | Claude + Google Calendar | [horario-semanal.zip](descargas/horario-semanal.zip) |
-| Kit de edición de video | Claude corta silencios, pone subtítulos y da color a tus clips | Próximamente | — |
+| Kit de edición de video | Grabas hablándole a la cámara y te devuelve un reel sin silencios, con subtítulos y color | Mac + Claude Code (recomendado) | [plantillas/kit-edicion](plantillas/kit-edicion) |
+| Centro de Control | App personal para organizar tu semana | Próximamente | — |
 
 Cómo instalarlas: [`guias/instalar-una-skill.md`](guias/instalar-una-skill.md). Toma 10 minutos.
 
