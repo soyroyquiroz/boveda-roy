@@ -2,23 +2,21 @@
 
 Una skill es una receta guardada: le enseñas a Claude una tarea una vez y la hace igual cada vez que la pides.
 
-## Paso 1 · Descarga la carpeta
-1. En este repo, entra a `skills/` y abre la skill que quieres (por ejemplo `volverme-experto`).
-2. Descarga el repo completo: botón verde **Code** → **Download ZIP**, y descomprímelo.
+## Si tienes Claude Pro (o un plan de pago)
+1. Descarga el .zip de la skill desde la carpeta `descargas/` (abre el archivo y pulsa el botón de descarga). No lo descomprimas.
+2. En Claude ve a **Ajustes → Capacidades** y activa **ejecución de código y creación de archivos**.
+3. Baja a la sección **Skills**, pulsa **Upload skill** y sube el .zip.
+4. Déjala activada. Escríbele a Claude el "ejemplo de uso" de esa skill.
+5. La primera vez, la skill te pregunta tus datos (por ejemplo, tu nombre en el horario). Contéstalos una vez y listo.
 
-## Paso 2 · Personalízala
-1. Abre el archivo `SKILL.md` de esa skill con cualquier editor de texto (Notas o TextEdit sirven).
-2. Llena el bloque **"Personaliza aquí"** con tus datos. Cambia solo lo que está entre corchetes `[ ]`.
-3. Guarda el archivo.
-
-## Paso 3 · Súbela a Claude
-1. Comprime **solo la carpeta de la skill** (por ejemplo `volverme-experto`) en un .zip.
-2. En Claude, entra a Ajustes y busca la sección de Skills (puede estar dentro de "Capacidades").
-3. Sube el .zip y actívala.
-
-## Paso 4 · Úsala
-Escríbele a Claude algo como el "Ejemplo de uso" que viene al final de cada `SKILL.md`. Claude detecta solo cuándo usar la skill.
+## Si tienes Claude gratis
+Las skills subidas solo funcionan en planes de pago, pero puedes usar la receta igual:
+1. Abre el archivo `SKILL.md` de la skill en `skills/` y copia todo el texto.
+2. En un chat nuevo de Claude pega el texto y escribe abajo: "Sigue estas instrucciones." Luego tu pedido.
+3. Repite esto cada vez que abras un chat nuevo.
 
 ## Si algo falla
-- ¿No encuentras la sección de Skills? Pregúntale a Claude: "¿dónde subo una skill en mi cuenta?". La ubicación cambia según el plan y la versión.
+- ¿No ves la sección Skills? Primero activa la ejecución de código; sin eso no aparece.
 - ¿`horario-semanal` no crea eventos? Activa el conector de Google Calendar en Claude.
+
+Fuente: [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)

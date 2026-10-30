@@ -1,21 +1,16 @@
 # Bóveda Roy
 
-Herramientas de IA que uso en mi día a día, en versión limpia para que tú armes la tuya. Todo es plantilla: nada trae mis datos, y cada quien usa sus propias cuentas.
+Herramientas de IA que uso en mi día a día, en versión limpia. Escoge solo la que te sirva: cada una funciona sola, sin las demás. Nada trae mis datos y cada quien usa sus propias cuentas.
 
-¿Nunca has programado? Empieza por la guía "Qué es qué" que te compartí, y luego sigue aquí.
+## Escoge una
 
-## Qué hay
-
-| Carpeta | Qué es | Para quién | Necesitas |
+| Herramienta | Qué hace | Necesitas | Descarga |
 | --- | --- | --- | --- |
-| `skills/volverme-experto` | Claude te arma una ruta para dominar cualquier tema: mapa, bloques, práctica y quizzes | Cualquiera que quiera aprender algo a fondo | Claude |
-| `skills/horario-semanal` | Le mandas la foto de tu horario impreso y Claude pasa tus turnos a Google Calendar | Quien trabaja por turnos que cambian cada semana | Claude + conector de Google Calendar |
-| `guias/` | Paso a paso para instalar cada cosa | Todos | — |
-| `plantillas/` | Apps listas para copiar (próximamente: kit de edición de video) | Quien ya quiera construir | Ver cada guía |
+| Volverme experto | Le dices un tema y Claude te arma una ruta para dominarlo, con ejercicios y quizzes | Claude | [volverme-experto.zip](descargas/volverme-experto.zip) |
+| Horario semanal | Le mandas foto de tu horario impreso y Claude pasa tus turnos a Google Calendar | Claude + Google Calendar | [horario-semanal.zip](descargas/horario-semanal.zip) |
+| Kit de edición de video | Claude corta silencios, pone subtítulos y da color a tus clips | Próximamente | — |
 
-## Empieza aquí
-
-Lee [`guias/instalar-una-skill.md`](guias/instalar-una-skill.md). En 10 minutos ya estás usando una skill.
+Cómo instalarlas: [`guias/instalar-una-skill.md`](guias/instalar-una-skill.md). Toma 10 minutos.
 
 ## Reglas de la casa
 

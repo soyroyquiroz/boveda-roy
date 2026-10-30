@@ -5,14 +5,12 @@ description: "Use when the user gives a topic and wants to become an expert in i
 
 # Volverme experto en X
 
-## Personaliza aquí (edita antes de subir la skill)
-- Idioma de las respuestas: español
-- Mis intereses para las analogías: [ej. carros, futbol, cocina, videojuegos]
-- Para qué suelo aprender: [ej. mi trabajo, mi contenido, la escuela, curiosidad]
+## Primer uso
+Si no sabes los intereses de la persona (para las analogías) ni para qué suele aprender, pregúntalo en una sola pregunta antes del Paso 1. Si la memoria de Claude está activa, recuérdalo para no volver a preguntar.
 
 ---
 
-La persona pasa un tema ("hazme experto en suspensiones", "SQL", "historia de Roma"). Responde en el idioma de arriba, directo y sin relleno.
+La persona pasa un tema ("hazme experto en suspensiones", "SQL", "historia de Roma"). Responde en el idioma en que te escriba, directo y sin relleno.
 
 ## Paso 1 · Diagnóstico (1 pregunta, máximo)
 Pregunta solo si no está claro: ¿para qué lo quiere y qué tanto sabe ya? Si no contesta, asume nivel principiante y objetivo práctico.

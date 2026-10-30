@@ -5,23 +5,21 @@ description: "Use when the user sends a photo of a printed work schedule: read t
 
 # Horario semanal a Google Calendar
 
-## Personaliza aquí (edita antes de subir la skill)
-- Mi nombre tal como aparece en el horario: [ej. Ana García López]
-- Mi puesto o sección en la hoja: [ej. Server, en la sección de Restaurante]
-- Día en que empieza mi semana laboral: [ej. jueves]
-- Título de los eventos: [ej. Turno · Server]
-- Ubicación de mi trabajo: [ej. Hotel X, Ciudad]
-- Mi zona horaria: [ej. America/New_York]
-- Metas semanales para acomodar en días libres (opcional): [ej. gym 4 veces de 1 h 30, meal prep 2, lavandería 1]
-- Horas de sueño y tiempo para llegar al trabajo: [ej. 7 h de sueño, 45 min para arreglarme y llegar]
+## Primer uso
+Antes de leer la primera foto necesitas estos datos. Si no los conoces, pídelos todos en un solo mensaje y, si la memoria de Claude está activa, recuérdalos:
+- Nombre tal como aparece en el horario, y su puesto o sección en la hoja
+- Día en que empieza su semana laboral
+- Título que quiere en los eventos y ubicación de su trabajo
+- Zona horaria
+- (Opcional) metas semanales para acomodar en días libres, horas de sueño y tiempo para llegar al trabajo
 
 ---
 
 La persona manda una foto del horario impreso. Responde en español.
 
 ## 1. Leer la foto
-- Busca su fila con el nombre y puesto de arriba.
-- Lee las fechas reales del encabezado de cada columna; la semana empieza el día indicado arriba, nunca supongas lunes a viernes.
+- Busca su fila con el nombre y puesto que te dio.
+- Lee las fechas reales del encabezado de cada columna; la semana empieza el día que te dio, nunca supongas lunes a viernes.
 - Si la foto no deja leer con seguridad su fila o las fechas, dilo y pide otra foto de frente, de cerca, con su fila y el encabezado visibles. No adivines.
 - Ojo con filas inclinadas: la de al lado puede confundirse con la suya.
 
@@ -31,8 +29,8 @@ Muestra una tabla corta Día | Turno (OFF incluido) y pide confirmación antes d
 ## 3. Crear eventos en Google Calendar
 Requiere el conector de Google Calendar activado en Claude.
 - Un evento por turno trabajado; los OFF no se crean.
-- Usa el título y la ubicación de arriba.
-- Pasa SIEMPRE la zona horaria de arriba: si el calendario está en otra zona, el turno queda corrido.
+- Usa el título y la ubicación que te dio.
+- Pasa SIEMPRE la zona horaria que te dio: si el calendario está en otra zona, el turno queda corrido.
 - Un turno que termina a las 12 a. m. termina a las 00:00 del día siguiente.
 - Antes de crear, lista los eventos de esa semana y no dupliques turnos que ya existan.
 
